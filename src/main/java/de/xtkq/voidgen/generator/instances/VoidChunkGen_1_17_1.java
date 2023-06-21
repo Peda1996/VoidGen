@@ -6,7 +6,7 @@ import de.xtkq.voidgen.VoidGen;
 import de.xtkq.voidgen.generator.annotations.VoidChunkGenInfo;
 import de.xtkq.voidgen.generator.interfaces.ChunkGen;
 import de.xtkq.voidgen.generator.settings.ChunkGenSettings;
-import org.apache.commons.lang.StringUtils;
+import de.xtkq.voidgen.utils.StringUtils;
 import org.bukkit.block.Biome;
 import org.bukkit.generator.BiomeProvider;
 import org.bukkit.generator.WorldInfo;
@@ -16,7 +16,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
-@VoidChunkGenInfo(versions = {"1.17.1", "1.18", "1.18.1"})
+@VoidChunkGenInfo(versions = {"1.17.1", "1.18", "1.18.1" ,"1.20", "1.20.1"})
 public class VoidChunkGen_1_17_1 extends ChunkGen {
 
     public VoidChunkGen_1_17_1(JavaPlugin javaPlugin, String paramIdentifier) {
